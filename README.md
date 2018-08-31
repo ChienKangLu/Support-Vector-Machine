@@ -22,3 +22,15 @@ At beginning, we will trasnform maximizing margin <img src="https://latex.codeco
   <img src="https://latex.codecogs.com/svg.latex?%5Cleft%5C%7B%5Cbegin%7Barray%7D%7Blr%7D%20%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D&plus;b%5Cgeq%201%20%24%2C%20if%20%24y_i%3D1%20%5C%5C%20%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D&plus;b%5Cleq%20-1%20%24%2C%20if%20%24y_i%3D-1%20%5Cend%7Barray%7D%5Cright." />
 </p>
 </p>
+<p>
+  Use Lagrange function (primary Lagrangians) to solve,
+</p>
+<p align="center">
+ <img src="https://latex.codecogs.com/svg.latex?L%28%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%2Cb%2C%5Cmathit%7B%5Cboldsymbol%7B%5Calpha%7D%7D%29%3D%5Cfrac%7B1%7D%7B2%7D%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Ctextbf%7B%5Ctextit%7Bw%7D%7D-%5Csum_%7Bi%3D1%7D%5E%7BN%7D%5Calpha_i%5C%7By_i%28%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D&plus;b%29-1%5C%7D" />
+</p>
+<p>
+Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20L%28%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%2Cb%2C%5Cmathit%7B%5Cboldsymbol%7B%5Calpha%7D%7D%29" /> with respect to <b><i>w</i></b> and <i>b</i> and set to zero,
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Bll%7D%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%7D%3D0%26%24%2C%20%24%20%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%3D%5Csum_%7Bi%3D1%7D%5E%7BN%7D%5Calpha_iy_i%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D%20%5C%5C%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20b%7D%3D0%26%24%2C%20%24%20%5Csum_%7Bi%3D1%7D%5E%7BN%7D%5Calpha_iy_i%3D0%20%5C%5C%20%5Cend%7Barray%7D" />
+</p>
