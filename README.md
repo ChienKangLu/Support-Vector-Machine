@@ -74,3 +74,18 @@ Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Bllll%7D%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Calpha_i%7D%20%26%20%3D%20%26%20%28%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%7D%29_i%20&plus;%28%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%7D%29_k%5Cfrac%7B%5Cpartial%20%5Calpha_k%7D%7B%5Cpartial%20%5Calpha_i%7D%20%26%20%5Cforall%20i%5Cneq%20k%5C%5C%20%26%20%3D%20%26%20%28%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29_i%20&plus;%20%28%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29_k%5Cfrac%7B%5Cpartial%20%5Calpha_k%7D%7B%5Cpartial%20%5Calpha_i%7D%20%26%20%5Cforall%20i%5Cneq%20k%24%20%24%28%5Calpha_k%3D%5Cfrac%7B-1%7D%7By_k%7D%5Csum%20%5Cnolimits_%7Bi%5Cneq%20k%7D%5Calpha_iy_i%29%20%5C%5C%20%26%20%3D%20%26%20%28%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29_i%20&plus;%20%28%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29_k%28%5Cfrac%7B-y_i%7D%7By_k%7D%29%20%26%20%5Cend%7Barray%7D" />
 </p>
+<p>
+  Use gradient decsent to find <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Calpha_i" /> and <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Calpha_k" />, Let <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Ctextbf%7B%5Ctextit%7Bd%7D%7D%5Cequiv%20%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D" />
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Bll%7D%20%5Calpha_i%5E%7B%27%7D%3D%5Calpha_i-%5Cvarepsilon%20%5Bd_i&plus;d_k%28%5Cfrac%7B-y_i%7D%7By_k%7D%29%5D%20%26%20%5Cforall%20i%5Cneq%20k%20%5C%5C%20%5Calpha_k%5E%7B%27%7D%3D%5Cfrac%7B-1%7D%7By_k%7D%5Csum%20%5Cnolimits_%7Bi%5Cneq%20k%7D%5Calpha_i%5E%7B%27%7Dy_i%20%5Cend%7Barray%7D" />
+</p>
+<p>
+  Once we get <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D" />, we can use <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D" /> to calculate <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Ctextbf%7B%5Ctextit%7Bw%7D%7D" />
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%5E%5Ctextbf%7B%5Ctextit%7B*%7D%7D%3D%5Csum_%7Bi%3D1%7D%5E%7BN%7D%5Calpha_iy_i%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D" />
+</p>
+<p>
+  For calculating <i>b</i>, we use 
+</p>
