@@ -56,3 +56,21 @@ Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Blll%7D%20L%28%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29%26%3D%26-%5Cfrac%7B1%7D%7B2%7D%5Csum%5Cnolimits_%7Bi%2Cj%7Dy_iy_j%5Calpha_i%5Calpha_j%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bj%7D%7D&plus;%5Csum_%7Bi%3D1%7D%5E%7BN%7D%5Calpha_i%20%5C%5C%20%26%3D%26-%5Cfrac%7B1%7D%7B2%7D%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7DH%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D&plus;%5Ctextbf%7B%5Ctextit%7Bf%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%20%5C%5C%20H_i_j%26%5Cequiv%20%26%20y_iy_j%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Ctextbf%7B%5Ctextit%7Bx%7D%7D%5Ctextbf%7B%5Ctextit%7Bj%7D%7D%5C%5C%20%5Ctextbf%7B%5Ctextit%7Bf%7D%7D%20%26%20%3D%20%26%281%2C1%2C%5Ccdots%2C1%29%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%20%5Cend%7Barray%7D" />
 </p>
+<p>
+  Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20L%28%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29" /> with respect to <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D" />:
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?%5Cbigtriangledown_%7B%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%7DL%5Cequiv%20%5B%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Calpha_1%7D%2C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Calpha_2%7D%2C%5Ccdots%2C%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Calpha_N%7D%5D%3D%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D" />
+</p>
+<p>
+  <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Calpha_k" /> must be decided by <i>N</i>-1 <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Calpha_i" /> because of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Ctextbf%7B%5Ctextit%7By%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%3D0" />:
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Bll%7D%20%5Calpha_ky_k&plus;%5Csum%20%5Cnolimits_%7Bi%5Cneq%20k%7D%5Calpha_iy_i%20%3D%200%5C%5C%20%5Calpha_k%3D%5Cfrac%7B-1%7D%7By_k%7D%5Csum%20%5Cnolimits_%7Bi%5Cneq%20k%7D%5Calpha_iy_i%20%5Cend%7Barray%7D" />
+</p>
+<p>
+  The gradient of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Calpha_i%7D" /> is composed of two parts which are with respect to <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Calpha_i" /> and <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Calpha_k" />:
+</p>
+<p align="center">
+  <img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Bllll%7D%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Calpha_i%7D%20%26%20%3D%20%26%20%28%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%7D%29_i%20&plus;%28%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%7D%29_k%5Cfrac%7B%5Cpartial%20%5Calpha_k%7D%7B%5Cpartial%20%5Calpha_i%7D%20%26%20%5Cforall%20i%5Cneq%20k%5C%5C%20%26%20%3D%20%26%20%28%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29_i%20&plus;%20%28%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29_k%5Cfrac%7B%5Cpartial%20%5Calpha_k%7D%7B%5Cpartial%20%5Calpha_i%7D%20%26%20%5Cforall%20i%5Cneq%20k%24%20%24%28%5Calpha_k%3D%5Cfrac%7B-1%7D%7By_k%7D%5Csum%20%5Cnolimits_%7Bi%5Cneq%20k%7D%5Calpha_iy_i%29%20%5C%5C%20%26%20%3D%20%26%20%28%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29_i%20&plus;%20%28%5Ctextbf%7B%5Ctextit%7Bf%7D%7D-H%5Cboldsymbol%7B%5Cmathbf%7B%5Calpha%7D%7D%29_k%28%5Cfrac%7B-y_i%7D%7By_k%7D%29%20%26%20%5Cend%7Barray%7D" />
+</p>
