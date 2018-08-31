@@ -35,5 +35,5 @@ Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%
   <img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Bll%7D%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%7D%3D0%26%24%2C%20%24%20%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%3D%5Csum_%7Bi%3D1%7D%5E%7BN%7D%5Calpha_iy_i%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D%20%5C%5C%20%5Cfrac%7B%5Cpartial%20L%7D%7B%5Cpartial%20b%7D%3D0%26%24%2C%20%24%20%5Csum_%7Bi%3D1%7D%5E%7BN%7D%5Calpha_iy_i%3D0%20%5C%5C%20%5Cend%7Barray%7D" />
 </p>
 <p>
-  Because 
+  Because the Lagrange multipliers are unknown, we still can not slove <b><i>w</i></b> and <i>b</i></u>. 
 </p>
