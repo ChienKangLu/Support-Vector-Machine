@@ -105,3 +105,6 @@ Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%
 <p align="center">
   <img height="250" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/result.png" />
 </p>
+
+## Reference
+
