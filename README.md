@@ -92,3 +92,12 @@ Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%
 <p align="center">
   <img src="https://latex.codecogs.com/svg.latex?%5Cbegin%7Barray%7D%7Bl%7D%20b_i%3D%5Cfrac%7B1%7D%7By_i%7D-%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D%20%5C%5C%20b%5E*%3D%5Cfrac%7B1%7D%7BN_s%7D%5Csum%20%5Cnolimits_s%20%28%5Cfrac%7B1%7D%7By_s%7D-%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bs%7D%7D%29%20%5Cend%7Barray%7D" />
 </p>
+
+## Practice
++ Number of class label: 2
++ Number of data: 100
++ Learning rate: 0.005
++ Iteration: 200
+<p align="center">
+  <img height="250" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/result.png" />
+</p>
