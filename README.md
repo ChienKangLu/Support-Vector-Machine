@@ -87,5 +87,8 @@ Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%
   <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%5E%5Ctextbf%7B%5Ctextit%7B*%7D%7D%3D%5Csum_%7Bi%3D1%7D%5E%7BN%7D%5Calpha_iy_i%5Ctextbf%7B%5Ctextit%7Bx%7D%7D_%5Ctextbf%7B%5Ctextit%7Bi%7D%7D" />
 </p>
 <p>
-  For calculating <i>b</i>, we use 
+  For calculating <i>b</i>, we use <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20y_i%28%5Ctextbf%7B%5Ctextit%7Bw%7D%7D%5E%5Ctextbf%7B%5Ctextit%7Bt%7D%7D%5Ctextbf%7B%5Ctextit%7Bw%7D%7D&plus;b%29%3D1" /> to obtain <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20b_i" /> for each support vectors and then average these values:
+</p>
+<p align="center">
+  
 </p>
