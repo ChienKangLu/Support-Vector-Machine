@@ -102,6 +102,7 @@ src="https://camo.githubusercontent.com/dc7780e207c0060099d84a8672195eaeeb8d5215
 ## Practice
 + Number of class label: 2
 + Number of data: 100
++ <i>C</i>: 30
 + Learning rate: 0.005
 + Iteration: 200
 <p align="center">
