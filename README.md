@@ -112,9 +112,14 @@ src="https://camo.githubusercontent.com/dc7780e207c0060099d84a8672195eaeeb8d5215
 + Variation of loss 
   <table>
     <tr>
-      <td><img height="250" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/loss_maximization.png" /></td>
-      <td><img height="250" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/loss_maximization_0_12.png" /></td>
-      <td><img height="250" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/loss_maximization_12.png" /></td>
+      <td><img height="200" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/loss_maximization.png" /></td>
+      <td><img height="200" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/loss_maximization_0_12.png" /></td>
+      <td><img height="200" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/loss_maximization_12.png" /></td>
+    </tr>
+    <tr>
+      <td>iteration 0 ~ 99</td>
+      <td>iteration 0 ~ 12</td>
+      <td>iteration 12 ~ 99</td>
     </tr>
   </table>
   
