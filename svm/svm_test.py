@@ -23,7 +23,8 @@ def main():
     X = np.empty(shape=[0, dim])
     X = np.append(X, data1, axis=0)
     X = np.append(X, data2, axis=0)
-    svm = SVM(X)
+    iter = 100
+    svm = SVM(X,iter)
     svm.train()
     print("train over")
     X,Y = svm.decision_boundary(0)
@@ -34,8 +35,18 @@ def main():
     drawline(X,Y,"blue",'-')
     # X,Y = svm.support_vector()
     # draw(X,Y,"black","x")
-
     plt.show()
+
+    # history_margin = svm.history_margin
+    # print(history_margin)
+    # drawline(np.arange(0,iter,1), history_margin, "blue", '-')
+    # plt.show()
+
+    history_loss = svm.history_loss
+    print(history_loss)
+    drawline(np.arange(0,iter,1),history_loss, "blue", '-')
+    plt.show()
+
 
 
 if __name__ == "__main__":
