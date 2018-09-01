@@ -107,4 +107,5 @@ Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%
 </p>
 
 ## Reference
-
+AI course of international management department in NTUST
+Introduction to data mining---by Pan-ning Tan, Mich. Steinbach and Vipin kumar
