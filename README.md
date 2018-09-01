@@ -112,7 +112,7 @@ src="https://camo.githubusercontent.com/dc7780e207c0060099d84a8672195eaeeb8d5215
       <td><img height="200" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/loss_maximization_0_12.png" /></td>
       <td><img height="200" src="https://github.com/ChienKangLu/Support-Vector-Machine/blob/master/img/loss_maximization_12.png" /></td>
     </tr>
-    <tr algin="center">
+    <tr align="center">
       <td>iteration 0 ~ 99</td>
       <td>iteration 0 ~ 12</td>
       <td>iteration 12 ~ 99</td>
