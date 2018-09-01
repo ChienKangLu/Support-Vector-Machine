@@ -94,8 +94,10 @@ Take the derivative of <img src="https://latex.codecogs.com/svg.latex?%5Cinline%
 </p>
 
 ## Training detail
-+ 1
-+ 2
++ <img
+src="https://camo.githubusercontent.com/dc7780e207c0060099d84a8672195eaeeb8d5215/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f253543696e6c696e65253230253543616c7068615f69" data-canonical-src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Calpha_i" style="max-width:100%;" /> must be within (0,<i>C</i>)
+
++ At each iteration, we will choose a survived <img src="https://camo.githubusercontent.com/f4e1dea119b29cde2faa516fc2d0858bf4376862/68747470733a2f2f6c617465782e636f6465636f67732e636f6d2f7376672e6c617465783f253543696e6c696e65253230253543616c7068615f6b" data-canonical-src="https://latex.codecogs.com/svg.latex?%5Cinline%20%5Calpha_k" style="max-width:100%;"> as the dependent variable
 
 ## Practice
 + Number of class label: 2
